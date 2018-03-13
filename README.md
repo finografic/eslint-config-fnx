@@ -1,8 +1,6 @@
 # eslint-config-fnx
 Basic ESLint rules, my way.
 
-# USEFULL LINKS:
-
 # ESLint Rules
 https://eslint.org/docs/rules/
 
