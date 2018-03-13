@@ -1,0 +1,38 @@
+
+# http://EditorConfig.org
+# EditorConfig helps developers define and maintain consistent
+# coding styles between different editors and IDEs
+
+[*]
+
+# .editorconfig OVERRIDES OTHER SETTINGS
+root = true
+
+# DEFAULT CHARSET
+charset = utf-8
+
+# NEWLINE STYLE - NOTE: OMIT  end_of_line FOR WINDOWS COMPATIBILITY
+[*]
+# end_of_line = lf
+insert_final_newline = true
+
+[*] WHITESPACE
+trim_trailing_whitespace = true
+
+[*.md] WHITESPACE FOR MARKDOWN FILES
+trim_trailing_whitespace = false
+
+# INDENTATION
+[*]
+indent_style = space
+indent_size = 2
+
+# EXAMPLE OVERRIDE
+[lib/**.js]
+indent_style = tab
+indent_size = 2
+
+# EXAMPLE MATCHING FOR EXACT FILES (package.json OR .travis.yml)
+[{package.json,.travis.yml}]
+indent_style = space
+indent_size = 4
